@@ -1,0 +1,59 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "brand": "Apple",
+            "model": "iPhone 14 Max",
+            "description": "The newest smartphone from Apple",
+            "category": "SmartPhone",
+            "price": 1.100,
+            "promotion": false
+        },
+        {
+            "id": 2,
+            "brand": "Sony",
+            "model": "Bravia 4K",
+            "description": "Android TV with Dolby Vision",
+            "category": "Television",
+            "price": 2.100,
+            "promotion": true
+        }
+    ],
+    "categories": [
+        "Digital Cameras",
+        "SmartPhones",
+        "Televisions",
+        "Audio",
+        "SmartWatches"
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Pedro Remoaldo",
+            "email": "premoaldo@gmail.com",
+            "password": "123456",
+            "shoppingcart": [
+                1,
+                2
+            ]
+        }
+    ],
+    "shoppingcart": [
+        {
+            "id": 1,
+            "userid": 1,
+            "products": [
+                {
+                    "id": 1,
+                    "quantity": 3,
+                    "unitPrice": 1.100
+                },
+                {
+                    "id": 2,
+                    "quantity": 1,
+                    "unitPrice": 2.100
+                }
+            ]
+        }
+    ]
+}
