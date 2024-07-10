@@ -1,0 +1,32 @@
+
+<!-- <------------------How to Run json file------------------> -->
+
+<!-- open new terminal and run this command -->
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+<!-- Ankits-MacBook-Pro:Ecommerce-electronic-website-Project-1 ankitcharolia$ cd json -->
+<!-- Ankits-MacBook-Pro:json ankitcharolia$ json-server --watch db.json -->
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  <!-- Resources
+  http://localhost:3000/products
+  http://localhost:3000/categories
+  http://localhost:3000/users
+  http://localhost:3000/shoppingcart -->
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+GET /products 200 8.728 ms - 392
+GET /categories 200 3.458 ms - 86
+GET /categories 200 3.660 ms - 86
+GET /products?category_like=Digital%20Cameras 304 3.995 ms - -
